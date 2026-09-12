@@ -1,7 +1,6 @@
 class HolyCors < Formula
   desc "Local HTTP and native gRPC bridge for Bug Days"
   homepage "https://github.com/bugdays-com/holy-cors"
-  version "0.2.0"
   license "MIT"
 
   on_macos do
