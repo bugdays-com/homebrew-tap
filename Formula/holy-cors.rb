@@ -1,15 +1,15 @@
 class HolyCors < Formula
-  desc "Local HTTP and native gRPC bridge for Bug Days"
+  desc "Local HTTP, gRPC, DNS, and TLS diagnostics bridge for Bug Days"
   homepage "https://github.com/bugdays-com/holy-cors"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bugdays-com/holy-cors/releases/download/v0.2.1/holy-cors-macos-arm64"
-      sha256 "95df5e4c4e1eacaaed4199ebcef2f98015469ab46021d00ea24984a19b8eb073"
+      url "https://github.com/bugdays-com/holy-cors/releases/download/v0.3.0/holy-cors-macos-arm64"
+      sha256 "02e571d3a088390613f8731e030434cbc5944bb98edbcea1bfe86f9bd4262392"
     else
-      url "https://github.com/bugdays-com/holy-cors/releases/download/v0.2.1/holy-cors-macos-x64"
-      sha256 "4819897bd137219a012f82a7f82b7b641f99e5c361f30c44574352f6de0ff0da"
+      url "https://github.com/bugdays-com/holy-cors/releases/download/v0.3.0/holy-cors-macos-x64"
+      sha256 "0544abc0b356900c04db537d010cf6b93d0b206f9ade938735d81ce682360988"
     end
   end
 
