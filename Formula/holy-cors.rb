@@ -5,11 +5,11 @@ class HolyCors < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bugdays-com/holy-cors/releases/download/v0.4.4/holy-cors-macos-arm64"
-      sha256 "8931a960d8a2ce9df12c726382c5376fd10e4b32b8ec84e63c5e1a1c72e96877"
+      url "https://github.com/bugdays-com/holy-cors/releases/download/v0.4.5/holy-cors-macos-arm64"
+      sha256 "cb3e75a8f8948ea7c1863631b897f242d44022b3814c7dd8235f9a39fd72239f"
     else
-      url "https://github.com/bugdays-com/holy-cors/releases/download/v0.4.4/holy-cors-macos-x64"
-      sha256 "a43dd135fc2fbd30de4159abe10054f8926376943e80861eef33006024fc9aa5"
+      url "https://github.com/bugdays-com/holy-cors/releases/download/v0.4.5/holy-cors-macos-x64"
+      sha256 "b93809e0ae3843e28507aca3ea0e966e40e8e067b8b69f505aa2e6fc9c5d3437"
     end
   end
 
